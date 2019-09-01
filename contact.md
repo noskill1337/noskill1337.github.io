@@ -5,7 +5,7 @@ title: Joshua Lehr | Contact
 
 {{ site.slogan }}
 
-### My interests maybe helpful for you
+### Maybe my interests are helpful for you
 
 - Penetration Tests (Websites, Infrastructur)
 - Security Awareness Training
