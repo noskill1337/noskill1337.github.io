@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /contact.html
+Allow: /about.html
+Allow: /blog.html
+Allow: /license.html
+Allow: /
+Allow: /*

@@ -1,0 +1,30 @@
+title: Joshua Lehr | Security Researcher
+description: "A Blog from Joshua Lehr"
+author:
+  name: "Joshua Lehr"
+  email: "joshua.lehr@cyfire.net"
+  url: "https://noskill1337.github.io/noskill1337/"
+baseurl: /
+source: .
+destination: ./_site
+permalink: /:title
+paginate: 5
+paginate_path: /page/:num/
+google_analytics: UA-39562459-1
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+future: true
+plugins:
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-sitemap
+owner : "Joshua Lehr"
+year : "2019"
+licenceLink: "https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode"
+licenceDisplay: "This work is licensed under a [![CC BY-NC-SA 4.0](https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode)"
+slogan: "## Find flaws before the bad guys do"

@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+<article>
+  <img src="{{page.image.url}}" alt=""/>
+  <br>
+  <br>
+  <br>
+  <h1>{{ page.cve }}: {{ page.title }}</h1>
+  <time datetime="{{ page.date | date_to_xmlschema }}" class="by-line">{{ page.date | date_to_string }}</time>, {{page.author}}
+  <br>
+  <br>
+  {{ content }}
+</article>
