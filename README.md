@@ -83,6 +83,8 @@ Edit `404.md`
 
 The information provided is released "as is" without warranty of any kind. The publisher disclaims all warranties, either express or implied, including all warranties of merchantability. No responsibility is taken for the correctness of this information. In no event shall the publisher be liable for any damages whatsoever including direct, indirect, incidental, consequential, loss of business profits or special damages, even if the publisher has been advised of the possibility of such damages.
 
-The contents of this advisory are copyright (c) 2019 Cyfire UG and may be distributed freely provided that no fee is charged for this distribution and proper credit is given.
+System administrators need tools like this to discover vulnerable hosts. This tool is offered for legal purposes only and to forward the security community's understanding of this vulnerability. As this PoC actively exploits the vulnerability, do not use against targets without prior permission.
+
+The contents of this advisory are copyright (c) 2019 {{ site.owner }} and may be distributed freely provided that no fee is charged for this distribution and proper credit is given.
 
 CC0 1.0 Universal
