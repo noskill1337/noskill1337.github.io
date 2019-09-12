@@ -9,8 +9,9 @@ author_image: "https://avatars1.githubusercontent.com/u/22133182?s=400&u=9c37c0c
 author_link: "https://github.com/noskill1337"
 cve: "CVE-2019-15849"
 cve_description: "HomeMatic CCU3 firmware 3.41.11 has a session fix vulnerability. An attacker can create a session ID and send it to the victim. After the victim log in to the WebUI, the attacker can use his session. The attacker could create a SSH login via the WebUI and easily compromise the system."
-cve_affectedVersion: "Version: 3.41.11"
-cvss: "XX.XX"
+cve_affectedVersion: "3.41.11"
+cvss: "7.4"
+cvss_vector: "3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:N/A:N"
 softwarePatchLink: "Update to the current version 3.47.15 or above"
 ---
 
@@ -130,7 +131,7 @@ In order to avoid this vulnerability, it's suggested to disable the WebUI of Hom
 
 - CVE: [{{ page.cve }}](https://cve.mitre.org/cgi-bin/cvename.cgi?name={{ page.cve }})
 - CVSS Base Score: **{{ page.cvss }}**
-- CVSS: 3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+- CVSS: {{ page.cvss_vector }}
 
 ## Credit
 

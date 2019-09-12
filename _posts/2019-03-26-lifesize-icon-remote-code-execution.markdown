@@ -11,6 +11,7 @@ cve: "CVE-2019-3702"
 cve_description: "A Remote Code Execution issue in the DNS Query Web UI in Lifesize Icon LS_RM3_3.7.0 (2421) allows remote authenticated attackers to execute arbitrary commands via a crafted DNS Query address field in a JSON API request."
 cve_affectedVersion: "LS_RM3_3.7.0 (2421)"
 cvss: "8.8"
+cvss_vector: "3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
 softwarePatchLink: "[https://cdn.lifesizecloud.com/](https://cdn.lifesizecloud.com/)"
 ---
 
@@ -71,7 +72,7 @@ In order to avoid this vulnerability, it's suggested to disable/update the softw
 
 - CVE: [{{ page.cve }}](https://cve.mitre.org/cgi-bin/cvename.cgi?name={{ page.cve }})
 - CVSS Base Score: **{{ page.cvss }}**
-- CVSS: 3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+- CVSS: {{ page.cvss_vector }}
 
 ## Credit
 

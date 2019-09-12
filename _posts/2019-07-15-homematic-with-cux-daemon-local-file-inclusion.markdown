@@ -10,7 +10,8 @@ author_link: "https://github.com/noskill1337"
 cve: "CVE-2019-14424"
 cve_description: "A Local File Inclusion (LFI) issue in the addon CUx-Daemon Version 1.11a of the HomeMatic CCU-Firmware 2.35.16 until 2.45.6 allows remote authenticated attackers to read sensitive files via a simple HTTP Request."
 cve_affectedVersion: "CUx-Daemon Version 1.11a until 2.2.0"
-cvss: "XX.XX"
+cvss: "6.5"
+cvss_vector: "3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N"
 softwarePatchLink: "[https://www.homematic-inside.de/blog/cuxd-in-der-version-2-3-0-erschienen?highlight=cuxd](https://www.homematic-inside.de/blog/cuxd-in-der-version-2-3-0-erschienen?highlight=cuxd)"
 ---
 
@@ -85,7 +86,7 @@ In order to avoid this vulnerability, it's suggested to disable the addon:
 
 - CVE: [{{ page.cve }}](https://cve.mitre.org/cgi-bin/cvename.cgi?name={{ page.cve }})
 - CVSS Base Score: **{{ page.cvss }}**
-- CVSS: 3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+- CVSS: {{ page.cvss_vector }}
 
 ## Credit
 

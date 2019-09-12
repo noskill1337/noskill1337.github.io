@@ -9,8 +9,9 @@ author_image: "https://avatars1.githubusercontent.com/u/22133182?s=400&u=9c37c0c
 author_link: "https://github.com/noskill1337"
 cve: "CVE-2019-15850"
 cve_description: "The HomeMatic CCU3 firmware version 3.41.11 has a Remote Code Execution (RCE) vulnerability in the ReGa.runScript method of the WebUI component. An authenticated attacker can easily execute code and compromise the system."
-cve_affectedVersion: "Version: 3.41.11"
-cvss: "XX.XX"
+cve_affectedVersion: "3.41.11"
+cvss: "9.1"
+cvss_vector: "3.0/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:L/A:L"
 softwarePatchLink: "Vendor will not change the concept of this JSON API function."
 ---
 
@@ -94,7 +95,7 @@ In order to avoid this vulnerability, it's suggested to disable the WebUI of Hom
 
 - CVE: [{{ page.cve }}](https://cve.mitre.org/cgi-bin/cvename.cgi?name={{ page.cve }})
 - CVSS Base Score: **{{ page.cvss }}**
-- CVSS: 3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+- CVSS: {{ page.cvss_vector }}
 
 ## Credit
 
