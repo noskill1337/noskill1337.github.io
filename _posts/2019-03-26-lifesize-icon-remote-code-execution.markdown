@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Remote Code Execution in Lifesize Icon"
-date: 2019-01-03 09:00:00
+date: 2019-03-26 09:00:00
 image:
       url: /assets/pixabay/matrix-1799659_1920.jpg
 author: 'Joshua Lehr'
@@ -9,7 +9,9 @@ author_image: "https://avatars1.githubusercontent.com/u/22133182?s=400&u=9c37c0c
 author_link: "https://github.com/noskill1337"
 cve: "CVE-2019-3702"
 cve_description: "A Remote Code Execution issue in the DNS Query Web UI in Lifesize Icon LS_RM3_3.7.0 (2421) allows remote authenticated attackers to execute arbitrary commands via a crafted DNS Query address field in a JSON API request."
+cve_affectedVersion: "LS_RM3_3.7.0 (2421)"
 cvss: "8.8"
+softwarePatchLink: "[https://cdn.lifesizecloud.com/](https://cdn.lifesizecloud.com/)"
 ---
 
 ## Overview
@@ -18,7 +20,7 @@ cvss: "8.8"
 - Vendor: Lifesize
 - Vendor Homepage: [https://www.lifesize.com/en](https://www.lifesize.com/en)
 - Product: Lifesize Icon
-- Version: LS_RM3_3.7.0 (2421)
+- Version: {{ page.cve_affectedVersion }}
 
 ## Background
 
@@ -61,9 +63,9 @@ This vulnerability affects the confidentiality / integrity / availability of the
 ## Remediation
 
 In order to avoid this vulnerability, it's suggested to disable/update the software with this patch:
-LS_RM3_3.7.0 (2421)
+**{{ page.cve_affectedVersion }}**
 
-Software pataches avialable here: [https://cdn.lifesizecloud.com/](https://cdn.lifesizecloud.com/)
+{%if page.softwarePatchLink %}{{ site.softwarePatchText }}{{ page.softwarePatchLink }}{% else %}{{ "" }}{% endif %}
 
 ## CVE
 
@@ -92,6 +94,6 @@ System administrators need tools like this to discover vulnerable hosts. This to
 
 The contents of this advisory are copyright (c) 2019 SVA System Vertrieb Alexander GmbH and may be distributed freely provided that no fee is charged for this distribution and proper credit is given.
 
-## Licence
+## License
 
-{{ site.licenceDisplay }}
+{{ site.LicenseDisplay }}

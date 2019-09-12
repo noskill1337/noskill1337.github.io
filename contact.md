@@ -7,10 +7,10 @@ title: Joshua Lehr | Contact
 
 ### Maybe my interests are helpful for you
 
-- Penetration Tests (Websites, Infrastructur)
+- Penetration Tests (Websites, Infrastructure)
 - Security Awareness Training
 - Secure Development Training
-- Phishing Campain for ISO 27001
+- Phishing Campaign for ISO 27001
 - Security Consulting
 - Code Reviews
 - OS hardening

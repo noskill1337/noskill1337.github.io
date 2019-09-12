@@ -25,6 +25,7 @@ plugins:
   - jekyll-sitemap
 owner : "Joshua Lehr"
 year : "2019"
-licenceLink: "https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode"
-licenceDisplay: "This work is licensed under a [![CC BY-NC-SA 4.0](https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode)"
+LicenseLink: "https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode"
+LicenseDisplay: "This work is licensed under a [![CC BY-NC-SA 4.0](https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode)"
 slogan: "## Find flaws before the bad guys do"
+softwarePatchText: "Software patch are here available: "
